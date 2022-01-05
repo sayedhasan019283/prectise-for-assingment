@@ -17,6 +17,7 @@ span{
 }
 .display-flex{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-for-showing{
     width: 50%;
@@ -28,8 +29,35 @@ span{
 .half-for-showing img{
 width: 70%;
 }
-.secound-banner{
+
+.ex-site{
+    display: flex;
     background-image: url(img/dream-bg.png);
-    background-repeat: no-repeat; 
-    background-position: right;
+    background-repeat: no-repeat;
+}
+.wight-set{
+    border-radius: 10px;
+    width: 40%;
+    padding-left: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.box-for-ex{
+    box-shadow: 10px 10px 30px gray;
+}
+
+.border-first{
+    border-left: 7px solid;
+   border-image: linear-gradient(blue tomato);
+   border-image-slice: 1;
+
+}
+.border-second{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato orange);
+    border-image-slice: 1;
+
+}
+footer{
+    text-align: center;
 }
