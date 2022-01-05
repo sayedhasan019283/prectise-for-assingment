@@ -1,3 +1,35 @@
+body{
+    margin: 0% auto;
+}
 h1{
     color: aqua;
+}
+span{
+    color: hotpink;
+}
+.st-sec-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: wheat;
+    font-weight: 700;
+}
+.display-flex{
+    display: flex;
+}
+.half-for-showing{
+    width: 50%;
+}
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-for-showing img{
+width: 70%;
+}
+.secound-banner{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat; 
+    background-position: right;
 }
